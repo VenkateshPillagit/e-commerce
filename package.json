@@ -1,0 +1,42 @@
+{
+  "name": "e-commerece",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "webpack-dev-server .",
+    "build": "webpack .",
+    "test": "echo \"Error: no test secified\" && exit 1"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-redux": "^8.1.1"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "description": "e-commerce appliation",
+  "main": "./src/index.js",
+  "devDependencies": {
+    "@babel/core": "^7.22.5",
+    "@babel/plugin-transform-runtime": "^7.22.5",
+    "@babel/preset-env": "^7.22.5",
+    "@babel/preset-react": "^7.22.5",
+    "@babel/runtime": "^7.22.5",
+    "babel-eslint": "^10.1.0",
+    "babel-loader": "^9.1.2",
+    "webpack": "^5.88.1",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1"
+  },
+  "author": "p.v.venkat1997@gmail.com",
+  "license": "ISC"
+}
