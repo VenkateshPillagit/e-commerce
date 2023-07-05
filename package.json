@@ -4,9 +4,17 @@
   "scripts": {
     "start": "webpack-dev-server .",
     "build": "webpack .",
+    "watch:build": "webpack .",
     "test": "echo \"Error: no test secified\" && exit 1"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.4.0",
+    "@fortawesome/free-regular-svg-icons": "^6.4.0",
+    "@fortawesome/free-solid-svg-icons": "^6.4.0",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "axios": "^1.4.0",
+    "babel-plugin-macros": "^3.1.0",
+    "jsonwebtoken": "^9.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-redux": "^8.1.1"
@@ -33,6 +41,8 @@
     "@babel/runtime": "^7.22.5",
     "babel-eslint": "^10.1.0",
     "babel-loader": "^9.1.2",
+    "css-loader": "^6.8.1",
+    "style-loader": "^3.3.3",
     "webpack": "^5.88.1",
     "webpack-cli": "^5.1.4",
     "webpack-dev-server": "^4.15.1"
