@@ -1,0 +1,12 @@
+button {
+    padding: 8px 16px;
+    width: 100%;
+    border-radius: 5px;
+    border-width: 0.6px;
+    font-size: 1rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.button-container {
+    width: 100%;
+}
